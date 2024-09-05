@@ -1,0 +1,23 @@
+# Use the rocker/shiny image as a base
+FROM rocker/shiny:latest
+
+# Install necessary system dependencies
+RUN apt-get update && apt-get install -y \
+    libcurl4-openssl-dev \
+    libssl-dev \
+    libxml2-dev \
+    build-essential \
+    libfontconfig1 \
+    libxt-dev
+
+# Install R packages
+RUN R -e "install.packages(c('shiny', 'shinyjs', 'foreign', 'readr', 'readxl', 'haven', 'DT'), repos='https://cloud.r-project.org/')"
+
+# Copy the Shiny app into the Docker image
+COPY ./your_shiny_app /srv/shiny-server/
+
+# Expose port 3838 for the Shiny app
+EXPOSE 3838
+
+# Run the Shiny app
+CMD ["/usr/bin/shiny-server"]
