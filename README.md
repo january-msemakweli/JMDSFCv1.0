@@ -30,7 +30,7 @@ install.packages(c("shiny", "shinyjs", "foreign", "readr", "readxl", "haven", "D
 
 Clone this repository to your local machine:
 
-git clone https://github.com/yourusername/JMDSFCv1.0.git
+git clone https://github.com/january-msemakweli/JMDSFCv1.0.git
 
 Open the R project or R script containing the Shiny app code.
 
