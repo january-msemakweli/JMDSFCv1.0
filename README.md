@@ -49,7 +49,7 @@ shiny::runApp("path_to_your_app_directory")
 
 ## Screenshots
 
-![App Interface](path_to_your_screenshot.png)
+![App Interface](https://github.com/january-msemakweli/JMDSFCv1.0-Dataset-Format-Converter/blob/main/Figures/JMDSFCv1.0%20UI.png)
 
 ## Built With
 
