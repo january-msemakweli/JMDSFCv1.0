@@ -1,0 +1,4 @@
+- name: Install R dependencies
+  run: |
+    install.packages('remotes')
+    remotes::install_deps(dependencies = TRUE, type = 'binary')
