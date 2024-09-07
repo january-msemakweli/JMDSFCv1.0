@@ -76,12 +76,8 @@ This research received no external funding.
 
 The authors declare no conflict of interest.
 
-# Data Availability
-
-Data sharing is not applicable to this article as no new data were created in this study.
-
 # Author Contributions
 
-- J.M. and K.M.: Conceptualization, Investigation, Project administration, Validation, Coding and Visualization, Writing – original draft, Writing – review & editing.
+- J.M. and K.M.: Conceptualization, Investigation, Project administration, Validation, Development, Writing – original draft, Writing – review & editing.
 
 # References
