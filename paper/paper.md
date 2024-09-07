@@ -30,14 +30,15 @@ The increasing diversity of data formats used across various fields such as data
 
 This application is especially beneficial for researchers, data analysts, and practitioners who handle diverse datasets, providing a streamlined, efficient, and reliable tool to facilitate smooth data interoperability. The development of JMDSFCv1.0 addresses the need for an accessible, automated solution, empowering users to focus more on data analysis rather than format compatibility.
 
+# Related Literature
+In the development of JMDSFCv1.0, several studies have explored the challenges and opportunities associated with data interoperability and format conversion across different domains. Interoperability, in particular, is crucial in enabling seamless communication between software systems that utilize different data formats.
 
-# Key Features
+One key area of research focuses on developing frameworks that automate the translation of data formats, ensuring systems can interact efficiently. For instance, the Plug’n’Interoperate (PnI) solution supports interoperability between systems by using a mediated approach where interoperations are handled by an external mediator, not directly by the systems themselves. This approach can be applied across various domains, including energy simulations and construction, to translate complex datasets between distinct software tools. The focus on self-configuration and automation is essential in such systems to minimize manual input and configuration challenges, which aligns well with the goals of JMDSFCv1.0.
 
-1. **User Interface Design**: The app provides a clean and simple interface, allowing users to upload datasets in various formats (e.g., CSV, Excel, SAS, SPSS, Stata, RData), select the output format from a dropdown, and convert the dataset with a single click.
-2. **File Format Support**: The app supports a wide range of data formats, including CSV, Excel (.xlsx), SAS (.sas7bdat), SPSS (.sav), Stata (.dta), and RData (.rdata/.RDATA).
-3. **Real-Time Progress Indicator**: The app features a progress bar that updates in real-time during the conversion process, providing users with feedback on the conversion's progress.
-4. **Automated Conversion Logic**: The app automatically handles the conversion process using appropriate R libraries (e.g., `readr` for CSV, `readxl` for Excel, `haven` for SAS, SPSS, and Stata, and native R functions for RData).
-5. **Download Feature**: After conversion, users can download the newly formatted file directly from the app.
+Moreover, interoperability issues are common in fields like healthcare and energy modeling, where data must be exchanged across platforms using standardized formats. Tools like the Industry Foundation Class (IFC) and Green Building XML (gbXML) in architecture and construction, and ISO 13606 for electronic health records, offer standard frameworks to address these challenges. Similarly, JMDSFCv1.0’s support for multiple data formats (e.g., CSV, Excel, SAS, SPSS, Stata, RData) represents a practical solution to interoperability, offering a streamlined process for converting datasets in real-time, which is increasingly important for efficient data analysis and decision-making.
+
+In summary, JMDSFCv1.0’s development is part of a broader effort to address challenges in data format conversion, promoting interoperability and automated solutions that reduce technical barriers for users across fields. This reflects ongoing research in creating efficient, scalable systems to manage diverse datasets.
+
 
 # Software's Approach
 
@@ -82,3 +83,5 @@ Data sharing is not applicable to this article as no new data were created in th
 # Author Contributions
 
 - J.M. and K.M.: Conceptualization, Investigation, Project administration, Validation, Coding and Visualization, Writing – original draft, Writing – review & editing.
+
+# References
