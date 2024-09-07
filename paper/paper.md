@@ -1,5 +1,6 @@
 ---
 title: "JMDSFCv1.0: an Interactive R/Shiny Application for Dataset Format Conversion with Real-Time Progress Monitoring"
+tags: "Dataset conversion, Cross platform, JMDSFC, Convert dataset"
 authors:
   - name: January G. Msemakweli
     orcid: 0009-0007-6743-8479
@@ -10,9 +11,7 @@ authors:
 affiliations:
   - name: Muhimbili University of Health and Allied Sciences, School of Public Health and Social Sciences, Department of Environmental and Occupational Health
     index: 1
-corresponding:
-  name: January G. Msemakweli
-  email: msemakwelijanuary@gmail.com
+Date: "7 September, 2024"
 bibliography: paper.bib
 repository: https://github.com/january-msemakweli/JMDSFCv1.0
 ---
