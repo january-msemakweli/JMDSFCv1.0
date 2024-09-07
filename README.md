@@ -24,7 +24,7 @@
 
 Before running the app, ensure you have the following packages installed in your R environment:
 
-install.packages(c("shiny", "shinyjs", "foreign", "readr", "readxl", "haven", "DT", "progress"))
+install.packages(c("shiny", "shinyjs", "foreign", "readr", "readxl", "haven", "DT", "progress", "openxlsx"))
 
 ### Installation
 
