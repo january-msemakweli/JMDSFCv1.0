@@ -6,6 +6,8 @@ library(readxl)
 library(haven)
 library(DT)
 library(progress)
+library(labelled)
+library(openxlsx)
 
 ui <- fluidPage(
   useShinyjs(),
@@ -44,7 +46,12 @@ server <- function(input, output, session) {
            xlsx = read_excel(input$file$datapath),
            xls = read_excel(input$file$datapath),
            sas7bdat = read_sas(input$file$datapath),
-           sav = read_sav(input$file$datapath),
+           sav = {
+             data <- read_sav(input$file$datapath)
+             # Replace coded variables with their labels
+             data <- as.data.frame(to_factor(data))
+             data
+           },
            dta = read_dta(input$file$datapath),
            rdata = {load(input$file$datapath); get(ls()[1])},
            RDATA = {load(input$file$datapath); get(ls()[1])},
@@ -86,7 +93,7 @@ server <- function(input, output, session) {
       
       switch(input$format,
              csv = write_csv(data, file),
-             xlsx = write.xlsx(data, file),
+             xlsx = write.xlsx(data, file),  # Use openxlsx for .xlsx
              sas7bdat = write_sas(data, file),
              sav = write_sav(data, file),
              dta = write_dta(data, file),
