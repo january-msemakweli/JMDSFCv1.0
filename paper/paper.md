@@ -39,7 +39,7 @@ This application is especially beneficial for researchers, data analysts, and pr
 4. **Automated Conversion Logic**: The app automatically handles the conversion process using appropriate R libraries (e.g., `readr` for CSV, `readxl` for Excel, `haven` for SAS, SPSS, and Stata, and native R functions for RData).
 5. **Download Feature**: After conversion, users can download the newly formatted file directly from the app.
 
-## Software's Approach
+# Software's Approach
 
 The development of JMDSFCv1.0 follows a structured, user-centered approach to ensure seamless dataset format conversion with minimal technical overhead. The software is built using the R Shiny framework, which provides an interactive web interface for user engagement while leveraging the power of R for data manipulation and conversion. This approach allows the application to function in real-time, responding to user inputs and providing immediate feedback on the progress of conversions.
 
@@ -58,7 +58,7 @@ The development of JMDSFCv1.0 follows a structured, user-centered approach to en
 
 This user-friendly and efficient approach ensures that JMDSFCv1.0 caters to a wide range of data conversion needs, reducing the time and effort typically involved in switching between dataset formats while improving overall data accessibility and analysis efficiency.
 
-## Conclusions
+# Conclusions
 
 The development of JMDSFCv1.0 addresses a critical need for an easy-to-use, reliable, and efficient solution for converting datasets between various formats. By simplifying the process of data format conversion and integrating real-time progress monitoring, the application significantly reduces the complexities faced by researchers, data analysts, and practitioners when dealing with multiple formats. JMDSFCv1.0’s intuitive interface, automated logic, and wide format compatibility make it a powerful tool for streamlining data interoperability and improving workflow efficiency. This application ensures that users can focus on analysis and decision-making rather than the technicalities of data conversion, providing a valuable resource in the realm of data management.
 
