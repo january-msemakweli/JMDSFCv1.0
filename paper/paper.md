@@ -59,7 +59,6 @@ The development of JMDSFCv1.0 follows a structured, user-centered approach to en
 
 This user-friendly and efficient approach ensures that JMDSFCv1.0 caters to a wide range of data conversion needs, reducing the time and effort typically involved in switching between dataset formats while improving overall data accessibility and analysis efficiency.
 
-![Screenshot of JMDSFCv1.0's UI](https://github.com/january-msemakweli/JMDSFCv1.0/blob/main/Figures/JMDSFCv1.0%20UI%20screen.png)
 
 # Conclusions
 
