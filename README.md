@@ -18,14 +18,6 @@
 - Simple and intuitive interface.
 - Download button appears only after successful conversion.
 
-## Getting Started
-
-### Prerequisites
-
-Before running the app, ensure you have the following packages installed in your R environment:
-
-install.packages(c("shiny", "shinyjs", "foreign", "readr", "readxl", "haven", "DT", "progress", "openxlsx", "labelled"))
-
 ## Usage
 
 1. Upload a dataset file in one of the supported formats (CSV, Excel, SAS, SPSS, Stata, RData).
