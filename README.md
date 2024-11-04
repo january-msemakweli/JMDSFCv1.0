@@ -26,18 +26,6 @@ Before running the app, ensure you have the following packages installed in your
 
 install.packages(c("shiny", "shinyjs", "foreign", "readr", "readxl", "haven", "DT", "progress", "openxlsx", "labelled"))
 
-### Installation
-
-Clone this repository to your local machine:
-
-git clone https://github.com/january-msemakweli/JMDSFCv1.0.git
-
-Open the R project or R script containing the Shiny app code.
-
-Run the app using RStudio or any R console:
-
-shiny::runApp("path_to_your_app_directory")
-
 ## Usage
 
 1. Upload a dataset file in one of the supported formats (CSV, Excel, SAS, SPSS, Stata, RData).
@@ -65,8 +53,7 @@ shiny::runApp("path_to_your_app_directory")
 
 Developed by **January G. Msemakweli**  and **Khalid Mzuka**
 Email: msemakwelijanuary@gmail.com 
-LinkedIn: [Your LinkedIn Profile](https://linkedin.com/in/january-msemakweli)
-
+LinkedIn: [https://linkedin.com/in/january-msemakweli]
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
